@@ -1,0 +1,22 @@
+/* Reset fatto nella libreria che potrò riutilizzare in futuro utilizzando la stessa library */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+/* Le righe devono essere figlie dirette del container */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
