@@ -19,6 +19,10 @@ body {
     text-align: center;
 }
 
+.container-white {
+    background-color: white;
+}
+
 .flex {
     display: flex;
     flex-wrap: nowrap;
@@ -47,6 +51,7 @@ body {
     border: 2px solid white;
     height: 50px;
     line-height: 50px;
+    background-color: #006cfa;
 }
 
 .col-1 {
@@ -97,7 +102,7 @@ body {
     width: calc((100% / 12) * 12);
 }
 
-.row.col-6 > div {
+.row.col-6 > .container-green div {
     background-color: #01e165;
 }
 
@@ -107,7 +112,58 @@ body {
 }
 
 
+/* OFFSET */
+.col-offset1 {
+    margin-left: calc((100% / 12) * 1);
+}
 
+.col-offset2 {
+    margin-left: calc((100% / 12) * 2);
+}
+
+.col-offset3 {
+    margin-left: calc((100% / 12) * 3);
+}
+
+.col-offset4 {
+    margin-left: calc((100% / 12) * 4);
+}
+
+.col-offset5 {
+    margin-left: calc((100% / 12) * 5);
+}
+
+.col-offset6 {
+    margin-left: calc((100% / 12) * 6);
+}
+
+.col-offset7 {
+    margin-left: calc((100% / 12) * 7);
+}
+
+.col-offset8 {
+    margin-left: calc((100% / 12) * 8);
+}
+
+.col-offset9 {
+    margin-left: calc((100% / 12) * 9);
+}
+
+.col-offset10 {
+    margin-left: calc((100% / 12) * 10);
+}
+
+.col-offset11 {
+    margin-left: calc((100% / 12) * 11);
+}
+
+.col-offset12 {
+    margin-left: calc((100% / 12) * 12);
+}
+
+.container.container-white .row > div {
+    border: none;
+}
 
 
 
