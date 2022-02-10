@@ -19,6 +19,13 @@ body {
     text-align: center;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Le righe devono essere figlie dirette del container */
 .row {
     display: flex;
@@ -26,10 +33,20 @@ body {
     flex-wrap: wrap;
 }
 
+.container-green {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 65%;
+    margin: auto auto;
+}
+
 /* Tutte le classi inizianti per col- vengono selezionate */
 [class*="col-"] {
     border: 2px solid white;
     height: 50px;
+    line-height: 50px;
 }
 
 .col-1 {
@@ -79,3 +96,19 @@ body {
 .col-12 {
     width: calc((100% / 12) * 12);
 }
+
+.row.col-6 > div {
+    background-color: #01e165;
+}
+
+.container-green > div {
+    border: 1px solid #006cfa;
+    height: 100%;
+}
+
+
+
+
+
+
+
